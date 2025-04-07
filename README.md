@@ -38,7 +38,8 @@ https://www.youtube.com/watch?v=d1y1ZIIX-XQ&pp=0gcJCb8Ag7Wk3p_U
 //Below is a result of combined solutions from the following links:
 https://www.youtube.com/watch?v=KWIIPKbdxD0
 https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
-1. <make sure firewall is off>
+1. Make sure firewall is off
+   sudo ufw status
 2. Create Flask-app placeholder
    a. Setting up:
       mkdir flask_app
