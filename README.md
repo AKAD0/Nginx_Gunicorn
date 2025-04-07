@@ -69,6 +69,7 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
    d. Test nginx:
       sudo nginx -t      
 5. Launch procedure:
+   source venv/bin/activate
    sudo systemctl restart nginx
    gunicorn --workers 3 --bind 192.168.1.208:8000 wsgi:app
 
