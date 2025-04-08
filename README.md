@@ -1,10 +1,10 @@
 ```
 — Deploy Nginx-Gunicorn-Flask on Raspberry Pi 5 —
 
-1. Raspberry Pi 5 setup
-2. Network setup
-3. Setup web-server
-4. Setup Flask web-app
+1) Raspberry Pi 5 setup
+2) Network setup
+3) Setup web-server
+4) Setup Flask web-app
 
 — Raspberry Pi 5 setup
 https://www.youtube.com/watch?v=d1y1ZIIX-XQ&pp=0gcJCb8Ag7Wk3p_U
