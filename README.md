@@ -29,10 +29,6 @@ https://www.youtube.com/watch?v=d1y1ZIIX-XQ&pp=0gcJCb8Ag7Wk3p_U
       External port: 80
       Internal IP address: <IP of Raspberry>
       Internal port: 80
-   b. https (:443)
-      External port: 443
-      Internal IP address: <IP of Raspberry>
-      Internal port: 443
 
 — Setup web-server
 //Below is a result of combined solutions from the following links:
