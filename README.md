@@ -19,8 +19,9 @@ https://www.youtube.com/watch?v=d1y1ZIIX-XQ&pp=0gcJCb8Ag7Wk3p_U
 1. Buy static IP from an Internet provider (e.g. rostelekom)
 2. Buy domain from a Registrar (e.g. nic.ru)
 3. Delegate DNS handling to a DNS provider's (e.g. cloudflare) nameservers
-4. Set the domain-ip pair in the DNS provider
-5. Setup Port forwarding within firewall settings of router
+4. Set the domain DNS Record at the DNS provider        //Proxied. domain-IP pair.
+5. Set the SSH subdomain DNS Record at the DNS provider //No proxy "DNS Only". ssh.domain-IP pair.
+6. Setup Port forwarding within firewall settings of router
    b. ssh (:22)
       External port: 22
       Internal IP address: <IP of Raspberry>
