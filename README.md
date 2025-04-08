@@ -48,13 +48,13 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
       source venv/bin/activate
       pip install flask
    b. Create 'app.py':
-      "/app.py" //needs to be configured
+      "/app.py"             //needs to be configured
    //test: flask run
 3. Setup Gunicorn
    a. Install:
       pip install gunicorn
    b. Create 'wsgi.py':
-      "/wsgi.py"
+      "/wsgi.py"            //needs to be configured
    //test: gunicorn --workers 3 --bind 192.168.1.208:8000 wsgi:app
    //"--bind 192.168.1.208:8000" is gunicorn-nginx interface
 4. Setup Nginx
@@ -63,7 +63,7 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
       sudo apt update
       sudo apt install nginx
    b. Create '/etc/nginx/sites-available/flask_app.conf':
-      "/flask_app.conf"
+      "/flask_app.conf"   //needs to be configured
    c. Deploy conf:
       sudo ln -s /etc/nginx/sites-available/flask_app.conf /etc/nginx/sites-enabled/
    d. Test nginx:
