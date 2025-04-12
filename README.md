@@ -53,6 +53,7 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
       "/wsgi.py"            //needs to be configured
    //test: gunicorn --workers 3 --bind 192.168.1.208:8000 wsgi:app
    //"--bind 192.168.1.208:8000" is gunicorn-nginx interface
+   //"wsgi:app" is flask-nginx interface
 4. Setup Nginx
    a. Install:
       deactivate
