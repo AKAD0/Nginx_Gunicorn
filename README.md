@@ -60,7 +60,8 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
       sudo apt update
       sudo apt install nginx
    b. Create '/etc/nginx/sites-available/flask_app.conf':
-      "/flask_app.conf"   //needs to be configured
+      "/flask_app.conf"    //needs to be configured
+      //"/flask_app.conf" contains nginx-internet interface
    c. Deploy conf:
       sudo ln -s /etc/nginx/sites-available/flask_app.conf /etc/nginx/sites-enabled/
    d. Test nginx:
