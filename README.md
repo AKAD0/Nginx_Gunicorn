@@ -45,6 +45,7 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
       pip install flask
    b. Create 'app.py':
       "/app.py"             //needs to be configured
+                            //Contains Gunicorn-nginx interface
    //test: flask run
 3. Setup Gunicorn
    a. Install:
