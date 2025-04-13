@@ -40,6 +40,7 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
    a. Setting up:
       mkdir flask_app
       cd flask_app
+      apt install python3.12-venv
       python3 -m venv venv
       source venv/bin/activate
       pip install flask
