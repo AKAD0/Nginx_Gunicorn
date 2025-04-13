@@ -59,7 +59,6 @@ https://chatgpt.com/share/67f1a234-9c88-8007-91fa-cf2ebc755215
 4. Setup Nginx
    a. Install:
       deactivate
-      sudo apt update
       sudo apt install nginx
    b. Create '/etc/nginx/sites-available/flask_app.conf':
       "/flask_app.conf"    //needs to be configured
